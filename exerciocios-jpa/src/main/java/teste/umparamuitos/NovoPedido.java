@@ -15,7 +15,7 @@ public class NovoPedido {
 		
 		Produto produto = daoProduto.obterPorID(3L);
 		Pedido pedido = new Pedido();
-		ItemPedido item = new ItemPedido(pedido, produto, 9);
+		ItemPedido item = new ItemPedido(pedido, produto, 10);
 		System.out.println(produto.getNome());
 		
 		dao
